@@ -1,0 +1,31 @@
+.menuContainer {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--blue-secondary);
+    box-shadow: var(--shadow);
+    z-index: 10;
+}
+
+.menuItem {
+    color: var(--dark);
+    background-color: var(--green-primary);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    margin-left: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.448);
+}
+
+.link {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo {
+    height: 6rem;
+}

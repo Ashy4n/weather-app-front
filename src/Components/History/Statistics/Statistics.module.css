@@ -1,0 +1,52 @@
+.container {
+    bottom: 0;
+    right: 5vw;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    background-color: var(--green-primary);
+    color: var(--dark);
+    padding: 2rem;
+    border-radius: 2rem 2rem 0 0;
+    box-shadow: var(--shadow);
+    transition: 0.3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tempContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+}
+.container h2 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid;
+}
+
+.hidden {
+    bottom: -26rem;
+}
+
+@media (max-width: 600px) {
+    .container {
+        left: 1vw;
+        right: 1vw;
+    }
+    .hidden {
+        bottom: -29rem;
+    }
+}

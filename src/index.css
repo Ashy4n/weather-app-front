@@ -1,0 +1,136 @@
+/* Font */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Colors */
+
+:root {
+    --green-primary: #39ec9a;
+    --green-secondary: rgb(0, 204, 167);
+    --blue-primary: #00aaa7;
+    --blue-secondary: #008898;
+    --dark: #2f4858;
+    --shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.448);
+}
+
+@media (max-width: 1250px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+/* Reset */
+
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}

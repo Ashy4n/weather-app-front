@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+    background: linear-gradient(0deg, rgba(187, 243, 255, 1) 0%, rgba(0, 118, 254, 1) 100%);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.empty {
+    font-size: 4rem;
+    color: var(--dark);
+    text-transform: uppercase;
+}
